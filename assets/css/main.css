@@ -1,0 +1,61 @@
+/* --- BASES --- */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9fbf9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* --- TITRES --- */
+h1 {
+    color: #2c5e2e; /* Vert rando */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #4a7c59;
+    display: inline-block;
+}
+
+/* --- BLOC INFOS (Distance, Durée...) --- */
+.rando-stats {
+    display: flex;
+    gap: 20px;
+    background: #f1f8f1;
+    padding: 20px;
+    border-radius: 10px;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.rando-stats li {
+    font-weight: bold;
+    color: #2c5e2e;
+}
+
+/* --- IMAGE --- */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* --- POINTS D'INTÉRÊTS --- */
+.points-interets {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fffdf5;
+    border-left: 5px solid #d35400; /* Orange terre */
+}
+
+.points-interets h3 {
+    color: #d35400;
+}
